@@ -10,9 +10,11 @@
   - Chuẩn hóa Unicode NFKC, chuẩn hóa ngắt dòng `\n`, loại bỏ khoảng trắng thừa, xóa các dòng header lặp lại của sách; giữ nguyên cấu trúc phân đoạn tự nhiên (`\n\n`).
   - Không có trang nào bị lỗi OCR do file PDF số hóa nguyên bản 100%.
 - **Embedding model & Vector store:**
-  - Embedding Model: `SentenceTransformer('all-MiniLM-L6-v2')`, 384 chiều, chạy local CPU.
-  - Vector Store: `ChromaDB` (v1.5.9), lưu tại`starter/results/chroma/chroma.sqlite3` (~14.4 MB), metric Cosine Similarity.
-  - Lệnh chạy: `python -m starter.src.run`. Chi phí API: 0 USD.
+  - Embedding Model: `SentenceTransformer('all-MiniLM-L6-v2')` (384 chiều, chạy local CPU hoàn toàn offline, không cần API key hay file `.env`).
+  - Thư viện & lệnh cài đặt: `pip install sentence-transformers==6.3.0 chromadb==1.5.9`.
+  - Tính nhất quán: Dùng duy nhất 1 model `all-MiniLM-L6-v2` (384 chiều) xuyên suốt cả 3 chiến lược A, B, C và cho cả vector query lẫn vector document (đảm bảo tương thích chiều vector và không gian nhúng 100%).
+  - Vector Store: `ChromaDB` (v1.5.9), lưu tại `starter/results/chroma/chroma.sqlite3` (~14.4 MB), metric Cosine Similarity.
+  - Lệnh chạy pipeline: `python -m starter.src.run`. Chi phí API: 0 USD.
 - **Metadata bắt buộc và trường lọc:**
   - Metadata bắt buộc: `document_id`, `source`, `page`.
   - Trường lọc bổ sung: `chapter` (Tên chương) và `category` (Overview, Agar, Alginate, Carrageenan, Food).
