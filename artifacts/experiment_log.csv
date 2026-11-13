@@ -1,4 +1,10 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+strategy,split,hit1_count,hit1_rate,hit3_count,hit3_rate,total_questions
+Strategy A,dev,4,26.67,7,46.67,15
+Strategy A,test,3,60.0,3,60.0,5
+Strategy A,overall,7,35.0,10,50.0,20
+Strategy B,dev,4,26.67,10,66.67,15
+Strategy B,test,3,60.0,4,80.0,5
+Strategy B,overall,7,35.0,14,70.0,20
+Strategy C,dev,5,33.33,10,66.67,15
+Strategy C,test,3,60.0,5,100.0,5
+Strategy C,overall,8,40.0,15,75.0,20

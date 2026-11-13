@@ -1,0 +1,250 @@
+{
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "direct",
+      "question": "What are the three broad groups into which seaweeds can be classified based on pigmentation?",
+      "expected_answer": "Brown (Phaeophyceae), red (Rhodophyceae) and green (Chlorophyceae).",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 13,
+      "chapter": "Chapter 1: Introduction to commercial seaweeds",
+      "evidence_quote": "Seaweeds can be classified into three broad groups based on pigmentation: brown, red and green.",
+      "filter": null
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "direct",
+      "question": "Which country is the largest producer of edible seaweeds, and what is its harvest volume?",
+      "expected_answer": "China is the largest producer, harvesting about 5 million wet tonnes.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 14,
+      "chapter": "Chapter 1: Introduction to commercial seaweeds",
+      "evidence_quote": "China is the largest producer of edible seaweeds, harvesting about 5 million wet tonnes.",
+      "filter": null
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "According to Chapter 2, what are the two main genera of seaweeds from which most agar is extracted?",
+      "expected_answer": "Gelidium and Gracilaria.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 21,
+      "chapter": "Chapter 2: Seaweeds used as a source of agar",
+      "evidence_quote": "Most agar is extracted from species of Gelidium (Figure 1) and Gracilaria (Figure 2).",
+      "filter": {
+        "chapter": "Chapter 2: Seaweeds used as a source of agar"
+      }
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "direct",
+      "question": "Which seaweed species is the main source of agar in India?",
+      "expected_answer": "Gelidiella acerosa.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 21,
+      "chapter": "Chapter 2: Seaweeds used as a source of agar",
+      "evidence_quote": "Gelidiella acerosa is the main source of agar in India.",
+      "filter": null
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "condition_exception",
+      "question": "Where has Gracilaria been grown in lagoons and ponds in recent years according to Chapter 2?",
+      "expected_answer": "In Viet Nam, grown in lagoons and ponds in both the north and south.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 23,
+      "chapter": "Chapter 2: Seaweeds used as a source of agar",
+      "evidence_quote": "A more concerted effort appears to have been made in Viet Nam in recent years, with a variety of species being grown in lagoons and ponds in both the north and south.",
+      "filter": null
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "direct",
+      "question": "What are the two principal processes used to remove water from gel in agar production?",
+      "expected_answer": "The freeze-thaw process and squeezing it out using pressure.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 29,
+      "chapter": "Chapter 3: Agar",
+      "evidence_quote": "Then the water is removed from the gel, either by a freeze-thaw process or by squeezing it out using pressure.",
+      "filter": null
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "Why is the freeze-thaw process relatively expensive in agar production?",
+      "expected_answer": "Because of high refrigeration and energy costs.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 30,
+      "chapter": "Chapter 3: Agar",
+      "evidence_quote": "Because of the refrigeration costs, this freeze-thaw process is relatively expensive, compared to the alternative described next",
+      "filter": null
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "According to Chapter 4, which brown seaweed genus harvested for alginate grows on the Pacific coast of North America?",
+      "expected_answer": "Macrocystis.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 39,
+      "chapter": "Chapter 4: Seaweeds used as a source of alginate",
+      "evidence_quote": "Brown seaweeds that fulfil the above criteria are species of Ascophyllum, Durvillaea, Ecklonia, Laminaria, Lessonia, Macrocystis and Sargassum, although the last, Sargassum, is only used when nothing else is available",
+      "filter": {
+        "chapter": "Chapter 4: Seaweeds used as a source of alginate"
+      }
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "direct",
+      "question": "Under what circumstances is Sargassum harvested for alginate extraction?",
+      "expected_answer": "Only when nothing else is available, because its alginate is usually of low viscosity and poor gel strength.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 39,
+      "chapter": "Chapter 4: Seaweeds used as a source of alginate",
+      "evidence_quote": "although the last, Sargassum, is only used when nothing else is available",
+      "filter": null
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "condition_exception",
+      "question": "What chemical substance is used in carrageenan extraction to increase gel strength?",
+      "expected_answer": "Alkali.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 75,
+      "chapter": "Chapter 7: Carrageenan",
+      "evidence_quote": "Alkali is used because it causes a chemical change that leads to increased gel strength in the final product.",
+      "filter": null
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "direct",
+      "question": "What are the two major seaweed species cultivated as raw materials for carrageenan production?",
+      "expected_answer": "Kappaphycus alvarezii and Eucheuma denticulatum.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 63,
+      "chapter": "Chapter 6: Seaweeds used as a source of carrageenan",
+      "evidence_quote": "Most carrageenan is extracted from Kappaphycus alvarezii and Eucheuma denticulatum.",
+      "filter": null
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "What is the characteristic feature of semi-refined carrageenan (SRC) processing method?",
+      "expected_answer": "The carrageenan is never actually extracted from the seaweed.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 75,
+      "chapter": "Chapter 7: Carrageenan",
+      "evidence_quote": "This is the method in which the carrageenan is never actually extracted from the seaweed.",
+      "filter": null
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "direct",
+      "question": "What rank of production does nori have in Japan list of marine aquaculture products?",
+      "expected_answer": "Nori has the highest production among products from marine culture in Japan.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 85,
+      "chapter": "Chapter 8: Seaweeds used as human food",
+      "evidence_quote": "In Japan’s list of products from marine culture, nori has the highest production, followed by oysters, yellowtails and wakame",
+      "filter": null
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "direct",
+      "question": "What is the nutritional value of Porphyra (nori) in terms of protein content?",
+      "expected_answer": "Porphyra has a high protein content of 30 to 50 percent, of which about 75 percent is digestible.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 86,
+      "chapter": "Chapter 8: Seaweeds used as human food",
+      "evidence_quote": "It is among the most nutritious seaweeds, with a protein content of 30–50 percent, and about 75 percent of that is digestible.",
+      "filter": null
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "condition_exception",
+      "question": "Which three hydrocolloids extracted from red and brown seaweeds are commercially important?",
+      "expected_answer": "Agar, alginate and carrageenan.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 14,
+      "chapter": "Chapter 1: Introduction to commercial seaweeds",
+      "evidence_quote": "Various red and brown seaweeds are used to produce three hydrocolloids: agar, alginate and carrageenan.",
+      "filter": null
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "type": "direct",
+      "question": "What has caused a revival of interest in using seaweeds for agricultural fertilizers?",
+      "expected_answer": "The rising popularity of organic farming.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 15,
+      "chapter": "Chapter 1: Introduction to commercial seaweeds",
+      "evidence_quote": "Today, with the rising popularity of organic farming, there has been some revival of the industry",
+      "filter": null
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "According to Chapter 2, why are species of Pterocladia collected and where are they mainly harvested?",
+      "expected_answer": "They are closely related to Gelidium and collected as sources of agar, mainly in the Azores (Portugal) and New Zealand.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 21,
+      "chapter": "Chapter 2: Seaweeds used as a source of agar",
+      "evidence_quote": "Closely related to Gelidium are species of Pterocladia, and small quantities of these are collected, mainly in the Azores (Portugal) and New Zealand.",
+      "filter": {
+        "chapter": "Chapter 2: Seaweeds used as a source of agar"
+      }
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "type": "direct",
+      "question": "In what zone does the brown seaweed Laminaria saccharina typically grow?",
+      "expected_answer": "In the upper sublittoral zone.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 42,
+      "chapter": "Chapter 4: Seaweeds used as a source of alginate",
+      "evidence_quote": "Laminaria saccharina also grows in the upper sublittoral",
+      "filter": null
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "condition_exception",
+      "question": "Why can lambda carrageenans not be processed by methods relying on potassium gel formation?",
+      "expected_answer": "Lambda carrageenans do not form gels with potassium and would therefore dissolve and be lost during alkali treatment.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 76,
+      "chapter": "Chapter 7: Carrageenan",
+      "evidence_quote": "Lambda carrageenans do not form gels with potassium and would therefore dissolve and be lost during the alkali treatment.",
+      "filter": null
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "paraphrase",
+      "question": "Which countries have a multi-century tradition of using seaweeds as direct human food?",
+      "expected_answer": "China, Japan, and the Republic of Korea.",
+      "gold_source_id": "fao_seaweed_guide",
+      "gold_page": 85,
+      "chapter": "Chapter 8: Seaweeds used as human food",
+      "evidence_quote": "For several centuries there has been a traditional use of seaweeds as food in China, Japan and the Republic of Korea.",
+      "filter": null
+    }
+  ]
+}

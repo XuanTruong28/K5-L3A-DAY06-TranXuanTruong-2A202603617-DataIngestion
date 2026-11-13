@@ -1,0 +1,44 @@
+{
+  "source_id": "fao_seaweed_guide",
+  "title": "A guide to the seaweed industry",
+  "author": "Dennis J. McHugh",
+  "publisher": "Food and Agriculture Organization of the United Nations (FAO)",
+  "series": "FAO Fisheries Technical Paper No. 441",
+  "source_url": "https://www.fao.org/3/y4765e/y4765e.pdf",
+  "license": "Open Access / Public FAO Educational Publication",
+  "accessed_at": "2026-11-13",
+  "physical_total_pages": 118,
+  "useful_pages_count": 106,
+  "useful_page_range": {
+    "start": 13,
+    "end": 118
+  },
+  "total_useful_characters": 292488,
+  "metadata_fields": [
+    {
+      "name": "document_id",
+      "type": "str",
+      "description": "Document identifier"
+    },
+    {
+      "name": "source",
+      "type": "str",
+      "description": "Source PDF filename"
+    },
+    {
+      "name": "page",
+      "type": "int",
+      "description": "Physical page number (1-indexed)"
+    },
+    {
+      "name": "chapter",
+      "type": "str",
+      "description": "Chapter title for metadata filtering"
+    },
+    {
+      "name": "category",
+      "type": "str",
+      "description": "Primary topic category (Overview, Agar, Alginate, Carrageenan, Food)"
+    }
+  ]
+}
